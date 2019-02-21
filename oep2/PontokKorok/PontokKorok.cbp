@@ -33,6 +33,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Pont.h" />
+		<Unit filename="feltolt.cpp" />
+		<Unit filename="feltolt.h" />
+		<Unit filename="kor.cpp" />
+		<Unit filename="kor.h" />
 		<Unit filename="korok.txt" />
 		<Unit filename="main.cpp" />
 		<Unit filename="pontok.txt" />
