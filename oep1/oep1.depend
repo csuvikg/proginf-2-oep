@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1550172676 source:c:\users\ygdyb2\desktop\oep\oep1\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1550741164 source:c:\!data\programozás_uj\2019\geptermigyak\gyak02\halozatra\pontokkorok\main.cpp
+	<iostream>
+	<vector>
+	"Pont.h"
+	"Kor.h"
+	"feltolt.h"
+
+1550741180 c:\!data\programozás_uj\2019\geptermigyak\gyak02\halozatra\pontokkorok\pont.h
+	<iostream>
+
+1550740026 c:\!data\programozás_uj\2019\geptermigyak\gyak02\halozatra\pontokkorok\kor.h
+	"Pont.h"
+
+1491395208 c:\!data\programozás_uj\2019\geptermigyak\gyak02\halozatra\pontokkorok\feltolt.h
+	<vector>
+	<string>
+	"Pont.h"
+	"Kor.h"
+
+1550777180 source:c:\users\ygdyb2\desktop\oep\oep2\pontokkorok\main.cpp
+	<iostream>
+	<vector>
+	"Pont.h"
+	"Kor.h"
+
+1550741206 c:\users\ygdyb2\desktop\oep\oep2\pontokkorok\pont.h
+	<iostream>
+
+1550776954 source:c:\users\ygdyb2\desktop\oep\oep2\pontokkorok\kor.cpp
+	"kor.h"
+	<cmath>
+
+1550777458 c:\users\ygdyb2\desktop\oep\oep2\pontokkorok\kor.h
+	<iostream>
+	"Pont.h"
+
+1550778749 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep2\pontokkorok\kor.cpp
+	"kor.h"
+	<cmath>
+
+1550778564 c:\users\ygdyb2\desktop\proginf-2-oep\oep2\pontokkorok\kor.h
+	<iostream>
+	<fstream>
+	"Pont.h"
+
+1550741206 c:\users\ygdyb2\desktop\proginf-2-oep\oep2\pontokkorok\pont.h
+	<iostream>
+
+1550739988 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep2\pontokkorok\feltolt.cpp
+	<iostream>
+	<fstream>
+	"feltolt.h"
+
+1491395208 c:\users\ygdyb2\desktop\proginf-2-oep\oep2\pontokkorok\feltolt.h
+	<vector>
+	<string>
+	"Pont.h"
+	"Kor.h"
+
+1550778820 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep2\pontokkorok\main.cpp
+	<iostream>
+	<vector>
+	"Pont.h"
+	"Kor.h"
+	"feltolt.h"
+
