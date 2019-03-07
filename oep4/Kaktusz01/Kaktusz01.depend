@@ -47,3 +47,31 @@
 	<fstream>
 	<string>
 
+1551985167 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\outfile.cpp
+	"outfile.h"
+	<iostream>
+
+1551985181 c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\outfile.h
+	<string>
+	<fstream>
+	"kaktusz.h"
+
+1551984014 c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\kaktusz.h
+	<string>
+
+1551985517 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\main.cpp
+	<iostream>
+	"infile.h"
+	"outfile.h"
+	"kaktusz.h"
+
+1551985219 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\infile.cpp
+	"infile.h"
+	<iostream>
+	<sstream>
+
+1551984077 c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\infile.h
+	<string>
+	<fstream>
+	"kaktusz.h"
+

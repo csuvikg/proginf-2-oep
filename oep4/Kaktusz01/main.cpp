@@ -13,6 +13,9 @@
 //                  írjuk ki egy output fájlba, azokat, melyeknek a készlete épp nulla
 //                  alakítsuk át a main függvényt úgy, hogy hibás fájlnév esetén meg lehessen adni újra a fájlnevet
 #include <iostream>
+#include "infile.h"
+#include "outfile.h"
+#include "kaktusz.h"
 
 using namespace std;
 
@@ -21,20 +24,20 @@ void Feladat(const string& fajlnev, const string& honnan_szarmazik, const string
 int main()
 {
     string fname,viragszin,oshaza;
-    /*try{
+    try{
         cout<<"Honnan szarmazo kaktuszokat vizsgaljak:"; cin>>oshaza;
         cout<<"Add meg a virag szint:"; cin>>viragszin;
         cout<<"Add meg az input fajl nevet:"; cin>>fname;
         Feladat(fname,oshaza,viragszin);
-    }catch(InFile::Exceptions err)
+    }catch(InFile::Exception err)
     {
-        if(err==InFile::FILEERROR)
+        if(err==InFile::FILE_ERROR)
         {
             cerr<<"Problema van az input fajllal: "<<fname<<endl;
         }else{
             cerr<<"Nem vart hiba.\n";
         }
-    }*/
+    }
     return 0;
 }
 
@@ -43,14 +46,16 @@ int main()
 //legnagyobb méretű mexikói kaktusz meghatározása
 void Feladat(const string& fname,const string& honnan,const string& szine){
     //Objetumok létrehozása
-
+    InFile x(fname);
+    OutFile y1("Orszag.txt");
+    OutFile y2("Viragszin.txt");
 
     //Megoldó algoritmus
     bool l=false;
-    //kaktusz dx,elem;
-    //Status sx;
-    //x.read(sx,dx);
-    /*while(sx==norm)
+    Kaktusz dx,elem;
+    Status sx;
+    x.read(sx,dx);
+    while(sx==norm)
     {
          if(dx.haza!=honnan)
          {
@@ -75,7 +80,7 @@ void Feladat(const string& fname,const string& honnan,const string& szine){
         cout<<"Legnagyobb "<<honnan<<"-bol szarmazo kaktusz:"<<elem.nev<<endl;
     }else{
         cout<<"Nem volt "<<honnan<<"-bol szarmazo kaktusz.\n";
-    }*/
+    }
 }
 
 
