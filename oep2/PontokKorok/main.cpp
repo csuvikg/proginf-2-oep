@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Pont.h"
-#include "Kor.h"
+#include "kor.h"
 #include "feltolt.h"
 
 using namespace std;
@@ -21,11 +21,14 @@ void Feladat();
 bool LinKer(const vector<Kor>&,const vector<Pont>&, int&);
 bool OptEldont(const Kor&,const vector<Pont>&);
 
+//Feladat: Van-e a körök között kett?, melyre az a>b teljesül, ha igen melyek ezek a körök?
+bool findTwoGreaterCirclesThan(const Kor& kor, const vector<Kor>& korok, vector<int> &foundInd);
+
 int main()
 {
     cout << "Tipus megvalositas I." << endl;
-    // Teszt();
-    Feladat();
+    Teszt();
+    // Feladat();
 
     return 0;
 }
@@ -71,6 +74,43 @@ void Teszt()
         k1=3*k2;
         cout<<"k1=3*k2\n";
         cout<<"k1 "<<k1<<endl;
+
+        //Egyenlo operator tesztelese
+        cout<<"k1==k2\n";
+        cout<<(k1==k2 ? "egyenlok" : "nem egyenlok") << endl << endl;
+        k1=Kor(k2);
+        cout<<"k1=Kor(k2); k1==k2\n";
+        cout<<(k1==k2 ? "egyenlok" : "nem egyenlok") << endl << endl;
+
+        //Nagyobb operator tesztelese
+        cout<<"k1>k2\n";
+        cout<<(k1>k2 ? "nagyobb" : "kisebb vagy egyenlo") << endl << endl;
+        k1*=2;
+        cout<<"k1*=2; k1>k2\n";
+        cout<<(k1>k2 ? "nagyobb" : "kisebb") << endl << endl;
+
+        //hf2: Van-e a körök között kett?, melyre az a>b teljesül, ha igen melyek ezek a körök?
+        k1=Kor(1, 1, 6);
+        k2=Kor(3, 3, 1);
+        k3=Kor(2, 2, 2);
+        vector<int> result;
+        bool l = findTwoGreaterCirclesThan(k1, {k2, k3}, result);
+        cout << "\nVan: " << (l ? "igen" : "nem") << endl;
+        if (l) {
+            cout << "Indexek: ";
+            for (int ind : result) cout << ind + 1 << " ";
+            cout << "\n\n";
+        }
+
+        result.clear();
+        l = findTwoGreaterCirclesThan(k2, {k1, k3}, result);
+        cout << "\nVan: " << (l ? "igen" : "nem") << endl;
+        if (l) {
+            cout << "Indexek: ";
+            for (int ind : result) cout << ind + 1 << " ";
+            cout << "\n\n";
+        }
+
     }catch(Kor::KorHiba err)
     {
         cout<<"Negativ sugaru kort nem lehet letrehozni!\n";
@@ -129,5 +169,44 @@ void Feladat()
     }
 }
 
-bool LinKer(const vector<Kor>&,const vector<Pont>&, int&) { return true; }
-bool OptEldont(const Kor&,const vector<Pont>&) { return true; }
+bool LinKer(const vector<Kor>& korok, const vector<Pont>& pontok, int& ind) {
+    bool l = false;
+    unsigned i = 0;
+
+    while (!l && i < korok.size()) {
+        l = OptEldont(korok[i], pontok);
+        ind = i;
+        ++i;
+    }
+
+    return l;
+}
+
+bool OptEldont(const Kor& kor, const vector<Pont>& pontok) {
+    bool l = false;
+    unsigned i = 0;
+
+    while (!l && i < pontok.size()) {
+        l = kor.RajtaVane(pontok[i]);
+        ++i;
+    }
+
+    return l;
+}
+
+bool findTwoGreaterCirclesThan(const Kor& kor, const vector<Kor>& korok, vector<int> &foundInd) {
+    if (korok.size() < 2) return false;
+
+    int found = 0;
+    unsigned int i = 0;
+
+    while (found < 2 && i < korok.size()) {
+        if (kor>(korok[i])) {
+            foundInd.push_back(i);
+            ++found;
+        }
+        ++i;
+    }
+
+    return found == 2;
+}

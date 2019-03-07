@@ -28,6 +28,8 @@ public:
     Kor operator*(double q) const throw(KorHiba);
     Kor operator*=(double q) throw(KorHiba);
     friend Kor operator*(double q, const Kor&) throw (KorHiba);
+    bool operator==(const Kor&);
+    friend bool operator> (const Kor &k1, const Kor &k2);
 };
 
 #endif // KOR_H_INCLUDED
