@@ -94,20 +94,26 @@ void Teszt()
         k2=Kor(3, 3, 1);
         k3=Kor(2, 2, 2);
         vector<int> result;
-        bool l = findTwoGreaterCirclesThan(k1, {k2, k3}, result);
+        vector<Kor> korok;
+        korok.push_back(k2);
+        korok.push_back(k3);
+        bool l = findTwoGreaterCirclesThan(k1, korok, result);
         cout << "\nVan: " << (l ? "igen" : "nem") << endl;
         if (l) {
             cout << "Indexek: ";
-            for (int ind : result) cout << ind + 1 << " ";
+            for (unsigned i = 0; i < result.size(); ++i) cout << result[i] + 1 << " ";
             cout << "\n\n";
         }
 
         result.clear();
-        l = findTwoGreaterCirclesThan(k2, {k1, k3}, result);
+        korok.clear();
+        korok.push_back(k1);
+        korok.push_back(k3);
+        l = findTwoGreaterCirclesThan(k2, korok, result);
         cout << "\nVan: " << (l ? "igen" : "nem") << endl;
         if (l) {
             cout << "Indexek: ";
-            for (int ind : result) cout << ind + 1 << " ";
+            for (unsigned i = 0; i < result.size(); ++i) cout << result[i] + 1 << " ";
             cout << "\n\n";
         }
 
