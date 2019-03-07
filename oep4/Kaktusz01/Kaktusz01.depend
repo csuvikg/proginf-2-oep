@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1520377314 source:c:\!data\programozás_uj\2018\gyakorlatok\04\kaktusz01\infile.cpp
+	"infile.h"
+	<iostream>
+	<cstdlib>
+	<sstream>
+
+1520377979 c:\!data\programozás_uj\2018\gyakorlatok\04\kaktusz01\infile.h
+	"kaktusz.h"
+	<fstream>
+	<string>
+
+1520378472 c:\!data\programozás_uj\2018\gyakorlatok\04\kaktusz01\kaktusz.h
+	<string>
+
+1520377980 source:c:\!data\programozás_uj\2018\gyakorlatok\04\kaktusz01\outfile.cpp
+	<iostream>
+	<cstdlib>
+	"outfile.h"
+
+1520002379 c:\!data\programozás_uj\2018\gyakorlatok\04\kaktusz01\outfile.h
+	"kaktusz.h"
+	<fstream>
+	<string>
+
+1520436072 source:d:\programozás_uj\2018\gyakorlatok\04\kaktusz01\infile.cpp
+	"infile.h"
+	<iostream>
+	<cstdlib>
+	<sstream>
+
+1520378562 d:\programozás_uj\2018\gyakorlatok\04\kaktusz01\infile.h
+	"kaktusz.h"
+	<fstream>
+	<string>
+
+1520378474 d:\programozás_uj\2018\gyakorlatok\04\kaktusz01\kaktusz.h
+	<string>
+
+1520434298 source:d:\programozás_uj\2018\gyakorlatok\04\kaktusz01\outfile.cpp
+	<iostream>
+	<cstdlib>
+	"outfile.h"
+
+1520434298 d:\programozás_uj\2018\gyakorlatok\04\kaktusz01\outfile.h
+	"kaktusz.h"
+	<fstream>
+	<string>
+
