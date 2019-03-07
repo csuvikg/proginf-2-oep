@@ -15,6 +15,7 @@ InFile::InFile(const std::string &fileName) noexcept(false) {
     }
 }
 
+/*
 void InFile::read(Status &sx, Kaktusz &dx) {
     std::string row;
     getline(f, row);
@@ -27,4 +28,22 @@ void InFile::read(Status &sx, Kaktusz &dx) {
         sx = abnorm;
     }
 }
+*/
+
+// Read masodik megvalositasa
+bool InFile::read(Status &sx, Kaktusz &dx) {
+    std::string row;
+    getline(f, row);
+
+    if (!f.fail()) {
+        sx = norm;
+        stringstream inp(row);
+        inp >> dx.nev >> dx.haza >> dx.szin >> dx.meret;
+    } else {
+        sx = abnorm;
+    }
+
+    return sx == norm;
+}
+
 //Read művelet megvalósítása

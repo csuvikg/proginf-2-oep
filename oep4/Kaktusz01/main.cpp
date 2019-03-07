@@ -37,6 +37,14 @@ int main()
         }else{
             cerr<<"Nem vart hiba.\n";
         }
+    }catch(OutFile::Exception err)
+    {
+        if(err==OutFile::FILE_ERROR)
+        {
+            cerr<<"Problema van az output fajllal: "<<fname<<endl;
+        }else{
+            cerr<<"Nem vart hiba.\n";
+        }
     }
     return 0;
 }
@@ -44,6 +52,7 @@ int main()
 //piros virágú valamint Mexikó őshazájú kaktuszok kiválogatása külön fájlokba
 //output fájlnevek átvehetők paraméterként
 //legnagyobb méretű mexikói kaktusz meghatározása
+/*
 void Feladat(const string& fname,const string& honnan,const string& szine){
     //Objetumok létrehozása
     InFile x(fname);
@@ -82,5 +91,42 @@ void Feladat(const string& fname,const string& honnan,const string& szine){
         cout<<"Nem volt "<<honnan<<"-bol szarmazo kaktusz.\n";
     }
 }
+*/
 
+void Feladat(const string& fname,const string& honnan,const string& szine){
+    //Objetumok létrehozása
+    InFile x(fname);
+    OutFile y1("Orszag.txt");
+    OutFile y2("Viragszin.txt");
 
+    //Megoldó algoritmus
+    bool l=false;
+    Kaktusz dx,elem;
+    Status sx;
+    while(x.read(sx, dx))
+    {
+         if(dx.haza!=honnan)
+         {
+         }else if(dx.haza == honnan && l){
+            if(dx.meret>elem.meret)
+            {
+                elem=dx;
+            }
+            y1.write(dx);
+         }else if(dx.haza == honnan && !l)
+         {
+             l=true; elem=dx;
+             y1.write(dx);
+         }
+         if(dx.szin == szine){
+            y2.write(dx);
+         }
+         x.read(sx,dx);
+    }
+    if(l)
+    {
+        cout<<"Legnagyobb "<<honnan<<"-bol szarmazo kaktusz:"<<elem.nev<<endl;
+    }else{
+        cout<<"Nem volt "<<honnan<<"-bol szarmazo kaktusz.\n";
+    }
+}

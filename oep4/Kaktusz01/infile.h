@@ -18,7 +18,8 @@ public:
     };
 
     InFile(const std::string &fileName);
-    void read(Status &sx, Kaktusz &dx);
+    // void read(Status &sx, Kaktusz &dx);
+    bool read(Status &sx, Kaktusz &dx);
 
 private:
     std::ifstream f;

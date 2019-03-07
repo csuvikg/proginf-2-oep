@@ -65,12 +65,12 @@
 	"outfile.h"
 	"kaktusz.h"
 
-1551985219 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\infile.cpp
+1551985979 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\infile.cpp
 	"infile.h"
 	<iostream>
 	<sstream>
 
-1551984077 c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\infile.h
+1551985912 c:\users\ygdyb2\desktop\proginf-2-oep\oep4\kaktusz01\infile.h
 	<string>
 	<fstream>
 	"kaktusz.h"
