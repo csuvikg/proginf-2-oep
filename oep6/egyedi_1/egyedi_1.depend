@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1553111001 source:d:\programozas_uj\2019\geptermigyak\gyak06\egyedi_1\infile.cpp
+	"infile.h"
+	<sstream>
+	<iostream>
+
+1553111135 d:\programozas_uj\2019\geptermigyak\gyak06\egyedi_1\infile.h
+	<fstream>
+	<string>
+
+1553109368 source:d:\programozas_uj\2019\geptermigyak\gyak06\egyedi_1\main.cpp
+	<iostream>
+	"infile.h"
+
