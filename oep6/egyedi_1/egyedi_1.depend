@@ -12,3 +12,16 @@
 	<iostream>
 	"infile.h"
 
+1553194918 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep6\egyedi_1\main.cpp
+	<iostream>
+	"infile.h"
+
+1553194683 c:\users\ygdyb2\desktop\proginf-2-oep\oep6\egyedi_1\infile.h
+	<fstream>
+	<string>
+
+1553194679 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep6\egyedi_1\infile.cpp
+	"infile.h"
+	<sstream>
+	<iostream>
+

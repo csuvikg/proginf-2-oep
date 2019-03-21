@@ -17,5 +17,18 @@ InFile::InFile(const string& fname)
 //read művelet
 void InFile::read(Status &sx, int &dx)
 {
+    f >> dx;
+    sx = f.fail() ? abnorm : norm;
+}
 
+// Egyedi felsorolo impl
+void FreqEnor::next() {
+    vege = sx == abnorm;
+    if (!vege) {
+        akt.val = dx;
+        akt.db = 0;
+        for(; sx == norm && dx == akt.val; x.read(sx, dx)) {
+            ++akt.db;
+        }
+    }
 }
