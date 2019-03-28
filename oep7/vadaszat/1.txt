@@ -1,0 +1,4 @@
+vadasz01 2018.11.20 nyul 3.5 nyul 4 szarvas 200
+vadasz01 2018.12.01 facan 1.8
+vadasz02 2019.01.05 roka 15 medve 300
+vadasz02 2019.01.20 nyul 3.8 nyul 4.2 muflon 80

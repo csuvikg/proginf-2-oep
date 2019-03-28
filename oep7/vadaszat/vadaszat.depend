@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1553714759 source:d:\programozas_uj\2019\geptermigyak\gyak07\vadaszat\infile.cpp
+	"infile.h"
+	<sstream>
+	<iostream>
+
+1553712848 d:\programozas_uj\2019\geptermigyak\gyak07\vadaszat\infile.h
+	<fstream>
+	<vector>
+	<string>
+
+1553714709 source:d:\programozas_uj\2019\geptermigyak\gyak07\vadaszat\main.cpp
+	<iostream>
+	"enor.h"
+
+1553714709 source:d:\programozas_uj\2019\geptermigyak\gyak07\vadaszat\enor.cpp
+	"enor.h"
+	<iostream>
+
+1553713860 d:\programozas_uj\2019\geptermigyak\gyak07\vadaszat\enor.h
+	"infile.h"
+
+1553797030 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep7\vadaszat\infile.cpp
+	"infile.h"
+	<sstream>
+	<iostream>
+
+1553797030 c:\users\ygdyb2\desktop\proginf-2-oep\oep7\vadaszat\infile.h
+	<fstream>
+	<vector>
+	<string>
+
+1553800217 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep7\vadaszat\main.cpp
+	<iostream>
+	"enor.h"
+
+1553800646 c:\users\ygdyb2\desktop\proginf-2-oep\oep7\vadaszat\enor.h
+	"infile.h"
+
+1553800819 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep7\vadaszat\enor.cpp
+	"enor.h"
+	<iostream>
+
