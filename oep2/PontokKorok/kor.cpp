@@ -42,3 +42,13 @@ Kor operator*(double q, const Kor& k) throw (Kor::KorHiba) {
     if (q < 0) throw Kor::HibasSugar;
     return k*q;
 }
+
+bool Kor::operator==(const Kor& masik) {
+    return this->kp.GetX() == masik.kp.GetX() &&
+    this->kp.GetY() == masik.kp.GetY() &&
+    this->r == masik.r;
+}
+
+bool operator>(const Kor &k1, const Kor &k2) {
+    return (k1.tavolsag(k2.kp) + k2.r) < k1.r;
+}

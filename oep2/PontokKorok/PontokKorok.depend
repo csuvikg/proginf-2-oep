@@ -65,3 +65,33 @@
 	"Kor.h"
 	"feltolt.h"
 
+1551968456 source:/Users/csuvikg/projects/proginf/oep/proginf-2-oep/oep2/PontokKorok/feltolt.cpp
+	<iostream>
+	<fstream>
+	"feltolt.h"
+
+1551993842 /Users/csuvikg/projects/proginf/oep/proginf-2-oep/oep2/PontokKorok/feltolt.h
+	<vector>
+	<string>
+	"Pont.h"
+	"kor.h"
+
+1551968456 /Users/csuvikg/projects/proginf/oep/proginf-2-oep/oep2/PontokKorok/Pont.h
+	<iostream>
+
+1551994446 source:/Users/csuvikg/projects/proginf/oep/proginf-2-oep/oep2/PontokKorok/kor.cpp
+	"kor.h"
+	<cmath>
+
+1551994455 /Users/csuvikg/projects/proginf/oep/proginf-2-oep/oep2/PontokKorok/kor.h
+	<iostream>
+	<fstream>
+	"Pont.h"
+
+1551968456 source:/Users/csuvikg/projects/proginf/oep/proginf-2-oep/oep2/PontokKorok/main.cpp
+	<iostream>
+	<vector>
+	"Pont.h"
+	"Kor.h"
+	"feltolt.h"
+

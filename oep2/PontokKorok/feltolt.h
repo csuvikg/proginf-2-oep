@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 #include "Pont.h"
-#include "Kor.h"
+#include "kor.h"
 
 enum feltoltHiba{hibasFajlnev};
 
