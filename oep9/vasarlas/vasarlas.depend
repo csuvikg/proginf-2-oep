@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1554974483 source:c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\department.cpp
+	"department.h"
+	<fstream>
+
+1554974468 c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\department.h
+	"product.h"
+	<vector>
+
+1541012736 c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\product.h
+	<string>
+
+1554400189 source:c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\main.cpp
+	<iostream>
+	"customer.h"
+
+1554974618 c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\customer.h
+	"store.h"
+	<iostream>
+
+1554399683 c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\store.h
+	"department.h"
+
+1554400680 source:c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\store.cpp
+	"Store.h"
+
+1554974557 source:c:\!data\programozás_uj\2019\geptermigyak\gyak08\kesz\vasarlas\customer.cpp
+	<iostream>
+	"customer.h"
+	<fstream>
+	<string>
+
+1554974484 source:d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\department.cpp
+	"department.h"
+	<fstream>
+
+1554974470 d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\department.h
+	"product.h"
+	<vector>
+
+1541012736 d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\product.h
+	<string>
+
+1554974670 source:d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\main.cpp
+	<iostream>
+	"customer.h"
+
+1554974620 d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\customer.h
+	"store.h"
+	<iostream>
+
+1554399684 d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\store.h
+	"department.h"
+
+1554400682 source:d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\store.cpp
+	"Store.h"
+
