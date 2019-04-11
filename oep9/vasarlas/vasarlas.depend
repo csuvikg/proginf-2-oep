@@ -55,3 +55,37 @@
 1554400682 source:d:\programozas_uj\2019\geptermigyak\gyak08\kesz\vasarlas\store.cpp
 	"Store.h"
 
+1555010482 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\customer.cpp
+	<iostream>
+	"customer.h"
+	<fstream>
+	<string>
+
+1555009843 c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\customer.h
+	"store.h"
+	"product.h"
+	<iostream>
+	<string>
+	<vector>
+
+1554399684 c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\store.h
+	"department.h"
+
+1554974470 c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\department.h
+	"product.h"
+	<vector>
+
+1541012736 c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\product.h
+	<string>
+
+1554974484 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\department.cpp
+	"department.h"
+	<fstream>
+
+1555010342 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\main.cpp
+	<iostream>
+	"customer.h"
+
+1554400682 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep9\vasarlas\store.cpp
+	"Store.h"
+
