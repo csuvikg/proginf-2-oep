@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1524863311 source:c:\!data\programozás_uj\projektek\tetel_sablon\szum\main.cpp
+	<iostream>
+	<fstream>
+	"MyClasses.hpp"
+	"library\seqinfileenumerator.hpp"
+	"library\intervalenumerator.hpp"
+
+1524866167 c:\!data\programozás_uj\projektek\tetel_sablon\szum\myclasses.hpp
+	"library/summation.hpp"
+	"library/linsearch.hpp"
+	"library/intervalenumerator.hpp"
+	<iostream>
+	<cmath>
+
+1522751822 c:\!data\programozás_uj\projektek\tetel_sablon\szum\library\summation.hpp
+	"procedure.hpp"
+
+1522751994 c:\!data\programozás_uj\projektek\tetel_sablon\szum\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+
+1502814430 c:\!data\programozás_uj\projektek\tetel_sablon\szum\library\enumerator.hpp
+
+1502817952 c:\!data\programozás_uj\projektek\tetel_sablon\szum\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	"enumerator.hpp"
+
+1516656560 c:\!data\programozás_uj\projektek\tetel_sablon\szum\library\intervalenumerator.hpp
+	"enumerator.hpp"
+
+1522751822 c:\!data\programozás_uj\projektek\tetel_sablon\szum\library\linsearch.hpp
+	"procedure.hpp"
+
+1556746999 source:c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"MyClasses.hpp"
+	"library\seqinfileenumerator.hpp"
+	"library\intervalenumerator.hpp"
+
+1556747082 c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\myclasses.hpp
+	"library/summation.hpp"
+	"library/linsearch.hpp"
+	"library/intervalenumerator.hpp"
+	<iostream>
+	<sstream>
+	<vector>
+	<cmath>
+
+1547543802 c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1555652084 c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1502814430 c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\library\enumerator.hpp
+
+1555578898 c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\library\linsearch.hpp
+	"procedure.hpp"
+
+1536086078 c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\library\intervalenumerator.hpp
+	"enumerator.hpp"
+
+1535999580 c:\!data\programozás_uj\2019\geptermigyak\gyak11\kesz\szum\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1556826421 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"MyClasses.hpp"
+	"library\seqinfileenumerator.hpp"
+	"library\intervalenumerator.hpp"
+
+1556826876 c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\myclasses.hpp
+	"library/summation.hpp"
+	"library/linsearch.hpp"
+	"library/intervalenumerator.hpp"
+	<iostream>
+	<sstream>
+	<vector>
+	<cmath>
+
+1547543802 c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1555652084 c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1502814430 c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\library\enumerator.hpp
+
+1555578898 c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\library\linsearch.hpp
+	"procedure.hpp"
+
+1536086078 c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\library\intervalenumerator.hpp
+	"enumerator.hpp"
+
+1535999580 c:\users\ygdyb2\desktop\proginf-2-oep\oep11\szum\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
