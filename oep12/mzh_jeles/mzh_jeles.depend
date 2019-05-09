@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1557403842 source:d:\programozas_uj\2019\geptermigyak\gyak12\kesz\mzh_jeles\main.cpp
+	<iostream>
+	"myClasses.hpp"
+
+1557403941 d:\programozas_uj\2019\geptermigyak\gyak12\kesz\mzh_jeles\myclasses.hpp
+	"library/enumerator.hpp"
+	"library/maxsearch.hpp"
+	"library/summation.hpp"
+	"library/seqinfileenumerator.hpp"
+
+1502814430 d:\programozas_uj\2019\geptermigyak\gyak12\kesz\mzh_jeles\library\enumerator.hpp
+
+1547542000 d:\programozas_uj\2019\geptermigyak\gyak12\kesz\mzh_jeles\library\maxsearch.hpp
+	"procedure.hpp"
+
+1555652084 d:\programozas_uj\2019\geptermigyak\gyak12\kesz\mzh_jeles\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1547543802 d:\programozas_uj\2019\geptermigyak\gyak12\kesz\mzh_jeles\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1535999580 d:\programozas_uj\2019\geptermigyak\gyak12\kesz\mzh_jeles\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1557431254 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep12\mzh_jeles\main.cpp
+	<iostream>
+	"myClasses.hpp"
+
+1557432085 c:\users\ygdyb2\desktop\proginf-2-oep\oep12\mzh_jeles\myclasses.hpp
+	<sstream>
+	"library/enumerator.hpp"
+	"library/maxsearch.hpp"
+	"library/summation.hpp"
+	"library/seqinfileenumerator.hpp"
+
+1502814430 c:\users\ygdyb2\desktop\proginf-2-oep\oep12\mzh_jeles\library\enumerator.hpp
+
+1547542000 c:\users\ygdyb2\desktop\proginf-2-oep\oep12\mzh_jeles\library\maxsearch.hpp
+	"procedure.hpp"
+
+1555652084 c:\users\ygdyb2\desktop\proginf-2-oep\oep12\mzh_jeles\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1547543802 c:\users\ygdyb2\desktop\proginf-2-oep\oep12\mzh_jeles\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1535999580 c:\users\ygdyb2\desktop\proginf-2-oep\oep12\mzh_jeles\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
