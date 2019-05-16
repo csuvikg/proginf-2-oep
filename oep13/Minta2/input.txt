@@ -1,0 +1,14 @@
+Aladar OEP 1pzh 2 1gzh 1 2pzh 4 2gzh 5 bead 5
+Irma OEP 1pzh 2 1gzh 3 2pzh 4 2gzh 5 bead 4
+Jolan OEP 1pzh 2 1gzh 3 2pzh 4 2gzh 5 bead 5
+Karcsi OEP 1pzh 2 1gzh 3 2pzh 4 2gzh 5 bead 5
+Lajos OEP 1pzh 2 1gzh 3 2pzh 4 2gzh 5 bead 5
+Aladar Algo zh1 3 zh2 5
+Irma Algo zh1 3 2zh2 3
+Jolan Algo zh1 5 2zh2 3
+Lajos Algo zh1 3 zh2 1
+Karcsi DIMAT zh1 1 zh2 5 zh3 5
+Lajos DIMAT zh1 3 zh2 3 zh3 5
+Zoli DIMAT zh1 5 zh2 5 zh3 1
+Erno ANAL zh1 5 zh2 0 zh3 4
+Robi C++ zh1 5 bead1 2 bead2 4 zh2 4

@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1558020856 source:c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\main.cpp
+	<iostream>
+	"library/enumerator.hpp"
+	"library/linsearch.hpp"
+	"library/maxsearch.hpp"
+	"library/counting.hpp"
+	"library/seqinfileenumerator.hpp"
+	"library/stringstreamenumerator.hpp"
+
+1502810830 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\enumerator.hpp
+
+1539603552 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\linsearch.hpp
+	"procedure.hpp"
+
+1547568396 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1547542000 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\maxsearch.hpp
+	"procedure.hpp"
+
+1537807748 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\counting.hpp
+	"summation.hpp"
+
+1547543802 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1535995978 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1547848848 c:\users\ygdyb2\desktop\proginf-2-oep\oep13\minta1\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
